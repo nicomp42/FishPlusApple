@@ -16,7 +16,7 @@ namespace FishPlusApple {
         static void Main(string[] args) {
             Fish bass = new Fish("Billy Bass");
             Apple redDelicious = new Apple("Johnny Appleseed");
-            FishApple fishApple;    // Wo do not need to instantiate this, yet...
+            FishApple fishApple;    // Wo do not need to instantiate this, that will be done for us in the + oprator...
 
             // Invoke the overloaded operator. See the Apple class. 
             fishApple = redDelicious + bass;    // This is actually a method call. 
